@@ -1,0 +1,19 @@
+{
+    "name": "jacks121/promotion",
+    "description": "shop promotion",
+    "authors": [
+        {
+            "name": "Joe"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "illuminate/container": "^5.1 || ^6.0 || ^7.0 || ^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Joe\\Promotion\\": "src/"
+        }
+    }
+}
