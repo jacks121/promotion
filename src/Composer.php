@@ -2,9 +2,11 @@
 
 namespace Joe\Promotion;
 
+use Illuminate\Support\Collection;
+
 class Composer{
     public function test()
     {
-       return collect([1,23,3,4,6,7])->toArray();
+       return Collection::make([2,3,4])->toArray();
     }
 }
